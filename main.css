@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000000;
+}
+
+
+/*--- navigation bar ---*/
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.navbar-brand{
+    color: #ff0000 !important;
+    }
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+} 
+
+/*--- header ---*/
+
+.header {
+    background-image: url('images/1e.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #fdbf29;
+}
+
+.description p {
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: normal;
+}
+
+/*--- feature section ---*/
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    color: #fdbf29;
+}
+
+.feature-title {
+    color: #ff0000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn:hover {
+    background-color: #ff0000;
+    border: 1px solid #fdbf29;
+}
+
+h6 {
+    color: #ff0000;
+}
+
+
+/*--- footer ---*/
+
+.page-footer {
+    background-color: #222;
+    color: #fdbf29;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #ff0000;
+    padding: 40px 0;
+}
+
